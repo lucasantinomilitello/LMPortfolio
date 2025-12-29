@@ -160,8 +160,6 @@ section{
   height: 320px;
   max-width: 80vw;
   max-height: 80vw;
-  width: 23vw;
-  height: 23vw;
   object-fit: cover;
   object-position: center top;
   border-radius: 50%;
@@ -269,8 +267,6 @@ section{
 .services-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  align-items: stretch;
   gap: 3rem;
   padding: 2rem;
 }
@@ -278,10 +274,6 @@ section{
 .service-box {
   display: flex;
   background-color: var(--main-color);
-  justify-content: center;
-  align-items: flex-start;
-  background-color: var(--main-color);
-  height: 420px;
   border-radius: 2rem;
   cursor: pointer;
   border: 5px solid transparent;
